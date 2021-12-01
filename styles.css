@@ -7,6 +7,7 @@
 body {
   height: 100%;
   width: 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 header {
@@ -22,4 +23,27 @@ header {
 
 h1 {
   color: #fff;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+main > section {
+  padding: 7em;
+  height: calc(100vh - 14em);
+  color: #fff;
+}
+
+main > section:nth-of-type(1) {
+  background-color: rgb(96, 175, 21);
+}
+
+main > section:nth-of-type(2) {
+  background-color: rgb(21, 139, 175);
+}
+
+main > section:nth-of-type(3) {
+  background-color: rgb(175, 21, 129);
 }
